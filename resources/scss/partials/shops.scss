@@ -1,0 +1,15 @@
+#shops {
+    background-color: #0282f9;
+    color: white;
+    font-weight: bold;
+    .shop {
+        display: flex;
+        align-items: center;
+        padding: 3.125rem 0.625rem;
+        img {
+            max-width: 3.125rem;
+            height: 3.125rem;
+            margin-right: 1rem;
+        }
+    }
+}
