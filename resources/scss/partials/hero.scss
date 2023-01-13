@@ -1,0 +1,31 @@
+#hero {
+    background-image: url(../img/jumbotron.jpg);
+    background-size: cover;
+    height: 25rem;
+    .container {
+        position: relative;
+        height: 100%;
+        .ms-btn {
+            padding: 1rem 1.875rem;
+            min-width: 9.375rem;
+            background-color: #0282f9;
+            color: white;
+            position: absolute;
+            bottom: -1.9063rem;
+            left: 0;
+            font-size: 1.5625rem;
+            border: none;
+        }
+    }
+}
+#cards {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3.125rem 0 0;
+    .comic {
+        width: calc(100% / 6);
+        margin-bottom: 3.125rem;
+    }
+}

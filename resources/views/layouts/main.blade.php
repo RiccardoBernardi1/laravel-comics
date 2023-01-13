@@ -14,13 +14,11 @@
 </head>
 
 <body>
-    @include("partials.header");
+    @include("partials.header")
     <main>
-        <div class="container">
-            
-        </div>
+        @yield("page-content")
     </main>
-    @include("partials.footer");
+    @include("partials.footer")
 </body>
 
 </html>
