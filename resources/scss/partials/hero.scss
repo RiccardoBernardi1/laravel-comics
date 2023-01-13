@@ -18,14 +18,3 @@
         }
     }
 }
-#cards {
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 3.125rem 0 0;
-    .comic {
-        width: calc(100% / 6);
-        margin-bottom: 3.125rem;
-    }
-}

@@ -13,6 +13,14 @@
         </div>
     </section>
     <section id="cards" >
-        @dd($comics)
+        @foreach ($comics as $comic)
+            <div class="comic">
+                <img src="{{$comic["thumb"]}}" alt="{{$comic["title"]}}">
+                <h4>{{$comic["title"]}}</h4>
+            </div>   
+        @endforeach
+        <button class="ms-btn fw-bold mx-auto">
+            LOAD MORE
+        </button>
     </section>
 @endsection
