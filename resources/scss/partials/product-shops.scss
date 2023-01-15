@@ -1,0 +1,19 @@
+#product-shops {
+    background-color: #f6f6f6;
+    min-height: 4.375rem;
+    border-top: 0.125rem solid #e3e3e3;
+    .ms-p {
+        padding: 0 7.1875rem;
+    }
+    .shop {
+        border-left: 0.125rem solid #e3e3e3;
+        min-width: calc(100% / 4);
+        &:last-child {
+            border-right: 0.125rem solid #e3e3e3;
+        }
+        img {
+            height: 2.8125rem;
+            filter: invert(0.5);
+        }
+    }
+}

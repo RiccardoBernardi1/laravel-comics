@@ -14,10 +14,10 @@
     </section>
     <section id="cards" >
         @foreach ($comics as $comic)
-            <div class="comic">
+            <a href="product" class="comic">
                 <img src="{{$comic["thumb"]}}" alt="{{$comic["title"]}}">
                 <h4>{{$comic["title"]}}</h4>
-            </div>   
+            </a>
         @endforeach
         <button class="ms-btn fw-bold mx-auto">
             LOAD MORE

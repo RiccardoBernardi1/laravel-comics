@@ -1,4 +1,5 @@
-#hero {
+#hero,
+#hero-top {
     background-image: url(../img/jumbotron.jpg);
     background-size: cover;
     height: 25rem;
@@ -17,4 +18,20 @@
             border: none;
         }
     }
+    .hero-bottom {
+        background-color: #0282f9;
+        min-height: 5rem;
+        position: relative;
+        top: 25rem;
+        left: 0;
+        right: 0;
+        img {
+            position: absolute;
+            bottom: -3.75rem;
+            left: 7.1875rem;
+        }
+    }
+}
+#hero-top {
+    margin-bottom: 5rem;
 }

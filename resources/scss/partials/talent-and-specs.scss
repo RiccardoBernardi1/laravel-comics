@@ -1,0 +1,17 @@
+#talent-and-specs {
+    background-color: #f6f6f6;
+    .ms-p {
+        padding: 0 7.1875rem 6.25rem;
+    }
+    .ms-list {
+        li {
+            border-top: 2px solid #e3e3e3;
+            &:last-child {
+                border-bottom: 2px solid #e3e3e3;
+            }
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+}
